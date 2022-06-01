@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>	 
+	<node name="stm_node" pkg="robotic_arm" type="stm.py"/>
+	<node name="arm_node" pkg="robotic_arm" type="handruning1.py"/>  <!--抓苹果-->>
+	<!-- <node name="arm_node" pkg="robotic_arm" type="handruning2.py"/> --> <!--放苹果-->>
+	<!-- <node name="arm_node" pkg="robotic_arm" type="handruning3.py"/> --> <!--抓坏苹果-->>
+	<node name="arm_node" pkg="robotic_arm" type="camera.py"/>
+
+	<!-- <node name="email_node" pkg="robotic_arm" type="phone.py"/> -->
+
+	<!-- <node name="path" pkg="tracking" type="$(find tracking)/src/path.py"/> -->
+</launch>
+

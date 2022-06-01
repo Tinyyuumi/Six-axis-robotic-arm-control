@@ -1,0 +1,5 @@
+打开终端输入命令：ls /dev 查看单片机串口名，在stm.py里边改
+输入命令 roslaunch robotic_arm test.launch 运行程序
+终端输入 rostopic pub /robot/arm/move1 ,然后按tab补全，最后的值 data:1，然后就启动机械表抓取
+
+没上车试过，可能会存在bug，边试边改吧
